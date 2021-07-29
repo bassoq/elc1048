@@ -1,0 +1,14 @@
+# ninja log v5
+5	572	6492860658299073	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/main.o	e6a1af264aa31db0
+0	578	6492860658299073	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/cpu-port.o	2e8b6a081fe54841
+7	602	6492860658309059	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/multitarefas.o	72ae0515c229e6b6
+609	1270	6492860665444929	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Exe/prj0.out	6dba45ee4d21dfa4
+0	84	6492860755956033	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/multitarefas.o	72ae0515c229e6b6
+1	67	6492860949567342	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/main.o	e6a1af264aa31db0
+168	253	6492861179563972	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/cpu-port.o	2e8b6a081fe54841
+172	265	6492861179643745	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/main.o	e6a1af264aa31db0
+175	283	6492861179863171	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/multitarefas.o	72ae0515c229e6b6
+289	369	6492861180770724	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Exe/prj0.out	b734e01566811494
+289	369	6492861180770724	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/List/prj0.map	b734e01566811494
+1	68	6492871395487541	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Obj/main.o	e6a1af264aa31db0
+73	464	6492871399453946	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/Exe/prj0.out	6dba45ee4d21dfa4
