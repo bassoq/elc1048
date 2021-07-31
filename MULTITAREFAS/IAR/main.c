@@ -83,6 +83,6 @@ void tarefa_3(void){
         volatile uint16_t c = 0;
         for(;;){
                 c++;
-                TarefaContinua(2);
+                TarefaEspera(100);
         }
 }
