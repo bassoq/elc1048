@@ -1,88 +1,61 @@
-#include <stdint.h>
+#define __USE_GNU 1 
+#include <pthread.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
 
-#include "multitarefas.h"
+#include <semaphore.h>
 
-/*
- * Prototipos das tarefas
- */
-void tarefa_1(void);
-void tarefa_2(void);
-void tarefa_3(void);
+#define N_ITENS 30
+int buffer[N_ITENS];
 
-/*
- * Configuracao dos tamanhos das pilhas
- */
-#define TAM_PILHA_1		(TAM_MINIMO_PILHA + 24)
-#define TAM_PILHA_2		(TAM_MINIMO_PILHA + 24)
-#define TAM_PILHA_3             (TAM_MINIMO_PILHA + 24)
-#define TAM_PILHA_OCIOSA	(TAM_MINIMO_PILHA + 24)
+semaforo_t pos_vazia;
+semaforo_t pos_ocupada;
 
-/*
- * Declaracao das pilhas das tarefas
- */
-uint32_t PILHA_TAREFA_1[TAM_PILHA_1];
-uint32_t PILHA_TAREFA_2[TAM_PILHA_2];
-uint32_t PILHA_TAREFA_3[TAM_PILHA_3];
-uint32_t PILHA_TAREFA_OCIOSA[TAM_PILHA_OCIOSA];
+int inicio = 0, final = 0;
 
-/*
- * Funcao principal de entrada do sistema
- */
-int main(void)
-{
-	
-	/* Criacao das tarefas */
-	/* Parametros: ponteiro, nome, ponteiro da pilha, tamanho da pilha, prioridade da tarefa */
-	
-	CriaTarefa(tarefa_1, "Tarefa 1", PILHA_TAREFA_1, TAM_PILHA_1, 1);
-	
-	CriaTarefa(tarefa_2, "Tarefa 2", PILHA_TAREFA_2, TAM_PILHA_2, 2);
-        
-        CriaTarefa(tarefa_3, "Tarefa 3", PILHA_TAREFA_3, TAM_PILHA_3, 3);
-	
-	/* Cria tarefa ociosa do sistema */
-	CriaTarefa(tarefa_ociosa,"Tarefa ociosa", PILHA_TAREFA_OCIOSA, TAM_PILHA_OCIOSA, 0);
-	
-	/* Configura marca de tempo */
-	ConfiguraMarcaTempo();   
-	
-	/* Inicia sistema multitarefas */
-	IniciaMultitarefas();
-	
-	/* Nunca chega aqui */
-	while (1)
-	{
-	}
+void* produtor(void *v) {
+  int i;
+
+  for (i = 0; i < 3 * N_ITENS; i++) {
+    SemaforoAguarda(&pos_vazia);
+    printf("Produtor, item = %d.\n", i);     
+    final = (final + 1) % N_ITENS;
+    buffer[final] = i;
+    SemaforoLibera(&pos_ocupada);
+    sleep(random() % 3);  /* Permite que a outra thread execute */
+  }
+  return NULL;
 }
 
+void* consumidor(void *v) {
+  int i;
 
-/* Tarefas de exemplo que usam funcoes para suspender/continuar as tarefas */
-void tarefa_1(void)
-{
-	volatile uint16_t a = 0;
-	for(;;)
-	{
-		a++;
-		TarefaContinua(2);
-	
-	}
+  for (i = 0; i < 3 * N_ITENS; i++) {
+    SemaforoAguarda(&pos_ocupada);
+    inicio = (inicio + 1) % N_ITENS;
+    printf("Consumidor, item = %d.\n", buffer[inicio]);
+    SemaforoLibera(&pos_vazia);
+    sleep(random() % 3);  /* Permite que a outra thread execute */  
+  }
+  return NULL;
 }
 
-void tarefa_2(void)
-{
-	volatile uint16_t b = 0;
-	for(;;)
-	{
-		b++;
-		TarefaSuspende(2);	
-	}
-}
+int main() {
 
-void tarefa_3(void){
-        volatile uint16_t c = 0;
-        for(;;){
-                c++;
-                TarefaEspera(100);
-        }
+  pthread_t thr_produtor, thr_consumidor;
+
+  sem_init(&pos_vazia, 0, N_ITENS);
+  sem_init(&pos_ocupada, 0, 0);
+  
+  pthread_create(&thr_produtor, NULL, produtor, NULL);
+  pthread_create(&thr_consumidor, NULL, consumidor, NULL);
+
+  pthread_join(thr_produtor, NULL); 
+  pthread_join(thr_consumidor, NULL);
+
+  sem_destroy(&pos_vazia);
+  sem_destroy(&pos_ocupada);
+  
+  return 0;
 }
