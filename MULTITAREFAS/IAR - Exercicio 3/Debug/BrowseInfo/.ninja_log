@@ -1,0 +1,56 @@
+# ninja log v5
+85	929	6492858000000000	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/multitarefas.xcl	fe33a90733aa5ee9
+82	958	6492858000000000	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/cpu-port.xcl	f8d4ea26b9ab1f04
+1	966	6492858000000000	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.xcl	d6f80e77059e32e5
+964	1943	6492858017731917	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/cpu-port.pbi	4017c04c454e7ed3
+973	1947	6492858017721936	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+935	1951	6492858017731917	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/multitarefas.pbi	c10522e3d1e69643
+1954	2068	6492858018984110	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+2074	3481	6492858032933754	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+1	164	6492871217041755	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+168	184	6492871217241566	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+189	594	6492871221176459	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+1	41	6492871423612883	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+44	56	6492871423772454	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+62	491	6492871427951798	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+1	191	6493801532725751	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+195	304	6493801533850063	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+308	1752	6493801548173822	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+0	100	6495602975591761	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+103	198	6495602976578681	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+203	978	6495602984225554	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+1	188	6498264308880535	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+192	262	6498264309688085	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+268	1900	6498264325775654	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+1	168	6498265438597208	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+173	202	6498265438946612	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+210	863	6498265445314375	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+0	56	6498272130923807	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+59	77	6498272131133256	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+0	431	6498272188406887	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+0	50	6498279785198479	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/main.pbi	c3e1d7404c3d44d5
+55	70	6498279785407904	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbd	b0c0c71a9b628824
+76	626	6498279790786330	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR/Debug/BrowseInfo/prj0.pbw	1f1ffd4c93b63d0c
+129	834	6498760940000000	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/main.xcl	a733d854c675a134
+125	878	6498760940000000	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/multitarefas.xcl	e67ca5be2270ac73
+2	885	6498760940000000	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/cpu-port.xcl	740dabb915503557
+883	1167	6498760948811339	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/multitarefas.pbi	73399d5834d144dd
+891	1171	6498760948801368	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/cpu-port.pbi	1dd60931c5afe4bd
+841	1182	6498760948961245	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/main.pbi	8580895c7a6c955f
+1186	1271	6498760949863919	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbd	5432668e09cb217c
+1277	2699	6498760964000609	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbw	f348483d6e5e08d4
+0	49	6498775657350080	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/main.pbi	8580895c7a6c955f
+54	70	6498775657557961	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbd	5432668e09cb217c
+78	504	6498775661746258	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbw	f348483d6e5e08d4
+0	153	6498776520976532	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/main.pbi	8580895c7a6c955f
+157	168	6498776521136089	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbd	5432668e09cb217c
+173	586	6498776525170729	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbw	f348483d6e5e08d4
+1	42	6498776828767185	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/main.pbi	8580895c7a6c955f
+45	58	6498776828936358	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbd	5432668e09cb217c
+64	480	6498776832994692	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbw	f348483d6e5e08d4
+1	41	6498777085888096	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/main.pbi	8580895c7a6c955f
+46	57	6498777086067605	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbd	5432668e09cb217c
+63	462	6498777089962703	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbw	f348483d6e5e08d4
+1	42	6498777897616717	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/main.pbi	8580895c7a6c955f
+47	60	6498777897796436	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbd	5432668e09cb217c
+67	467	6498777901739023	C:/Users/basso/Documents/GitHub/elc1048/MULTITAREFAS/IAR - Exercicio 3/Debug/BrowseInfo/prj0.pbw	f348483d6e5e08d4
